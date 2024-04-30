@@ -12,14 +12,13 @@ final class ViewController: UIViewController {
     @IBOutlet var greetingLabel: UILabel!
     @IBOutlet var showGreetingButton: UIButton!
     
-    
     // метод унаследован от супер класса UIViewController
     override func viewDidLoad() {
         super.viewDidLoad() // обращаемся к род классу и вызываем у него метод
         greetingLabel.isHidden.toggle() // скрываем приветствие
         showGreetingButton.layer.cornerRadius = 10 // скругление кнопки
     }
-    // (_ sender: UIButton) убрали параметрs метода т.к есть свойство (13)
+    // (_ sender: UIButton) убрали параметры метода т.к есть свойство (13)
     @IBAction func showGreetingButtonDidTapped() {
         greetingLabel.isHidden.toggle()
         showGreetingButton.setTitle(
