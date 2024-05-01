@@ -44,6 +44,7 @@
                             <constraint firstItem="8h8-Ao-abE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Bnw-ni-g19"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8h8-Ao-abE" secondAttribute="trailing" constant="16" id="ctw-Ci-eYs"/>
                             <constraint firstItem="hFX-fX-YGI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gWE-cS-fzE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hFX-fX-YGI" secondAttribute="bottom" constant="204.33000000000001" id="pUO-Zk-ZKq"/>
                         </constraints>
                     </view>
                     <connections>

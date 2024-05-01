@@ -6,18 +6,22 @@
 //
 
 import UIKit
-// финалим класс т.к он последний, название нужно сменить
+// финалим класс т.к. он последний, название нужно менять
 final class ViewController: UIViewController {
-    // ! в конце, эту var нужно иниц до обращения
-    @IBOutlet var greetingLabel: UILabel!
+    // сначала определяем все свойства класса
+    // ! в конце "эту var нужно иниц до обращения", этот var опциональный
+    @IBOutlet var greetingLabel: UILabel! // явное название var "приветствие"
     @IBOutlet var showGreetingButton: UIButton!
     
     // метод унаследован от супер класса UIViewController
+    // настройка интерфейса до того как его увидит пользователь
     override func viewDidLoad() {
         super.viewDidLoad() // обращаемся к род классу и вызываем у него метод
+        // .isHidden скрывает объект, .toggle переворачивает true/false
         greetingLabel.isHidden.toggle() // скрываем приветствие
         showGreetingButton.layer.cornerRadius = 10 // скругление кнопки
     }
+    // потом определяем методы
     // (_ sender: UIButton) убрали параметры метода т.к есть свойство (13)
     @IBAction func showGreetingButtonDidTapped() {
         greetingLabel.isHidden.toggle()
