@@ -16,9 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="B5t-8b-pzo">
-                                <rect key="frame" x="16" y="397" width="361" height="58"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5t-8b-pzo">
+                                <rect key="frame" x="107.66666666666669" y="405.66666666666669" width="178" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -26,9 +26,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="B5t-8b-pzo" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Crn-qI-QUl"/>
-                            <constraint firstItem="B5t-8b-pzo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="FIK-PV-Wfr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B5t-8b-pzo" secondAttribute="trailing" constant="16" id="Q6C-Hi-PBb"/>
+                            <constraint firstItem="B5t-8b-pzo" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="S7W-zY-stS"/>
+                            <constraint firstItem="B5t-8b-pzo" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iO1-oA-IY8"/>
                         </constraints>
                     </view>
                 </viewController>
