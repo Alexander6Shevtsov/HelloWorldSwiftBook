@@ -23,7 +23,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFX-fX-YGI">
-                                <rect key="frame" x="117.66666666666669" y="574.66666666666663" width="158" height="39"/>
+                                <rect key="frame" x="117.66666666666669" y="613" width="158" height="39"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="158" id="XRb-p1-GPA"/>
@@ -39,12 +39,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hFX-fX-YGI" secondAttribute="bottom" multiplier="4:3" id="3nb-ZF-4wS"/>
-                            <constraint firstItem="8h8-Ao-abE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7Hg-dk-xxG"/>
-                            <constraint firstItem="8h8-Ao-abE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Bnw-ni-g19"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8h8-Ao-abE" secondAttribute="trailing" constant="16" id="ctw-Ci-eYs"/>
-                            <constraint firstItem="hFX-fX-YGI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gWE-cS-fzE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hFX-fX-YGI" secondAttribute="bottom" constant="204.33000000000001" id="pUO-Zk-ZKq"/>
+                            <constraint firstAttribute="bottom" secondItem="hFX-fX-YGI" secondAttribute="bottom" constant="200" id="9Zh-3n-Zro"/>
+                            <constraint firstItem="8h8-Ao-abE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="AcB-EV-geM"/>
+                            <constraint firstItem="8h8-Ao-abE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="EOY-qp-qWh"/>
+                            <constraint firstItem="hFX-fX-YGI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LlA-5h-eYh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8h8-Ao-abE" secondAttribute="trailing" constant="16" id="zRV-2M-RXd"/>
                         </constraints>
                     </view>
                     <connections>
